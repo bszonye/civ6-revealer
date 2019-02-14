@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="88204598-d301-435e-a3ea-97375537f475" version="1.0.0">
+  <Properties>
+    <Name>Revealer</Name>
+    <Description>Removes all fog of war</Description>
+    <Teaser>Removes all fog of war</Teaser>
+    <Authors>Bradd Szonye</Authors>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <InGameActions>
+    <AddGameplayScripts id="REVEALER_SCRIPTS">
+      <File>revealer.lua</File>
+    </AddGameplayScripts>
+  </InGameActions>
+  <Files>
+    <File>revealer.lua</File>
+  </Files>
+</Mod>
